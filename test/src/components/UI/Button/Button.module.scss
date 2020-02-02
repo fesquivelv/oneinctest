@@ -1,0 +1,63 @@
+
+
+@import '../../../styles/_colors.scss';
+
+
+.Button:disabled {
+    color:$disabled-button;
+    cursor: not-allowed;
+}
+
+.Success {
+    background-color: $first-color;
+    width: 100%;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 0px ;
+    font-weight: bold;
+    height: 48px;
+}
+
+.Secondary {
+    background-color: $fourth-color;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 0px ;
+    font-weight: bold;
+    height: 48px;
+}
+
+.White {
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    height: 48px;
+}
+
+.Transparent{
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px white solid;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    height: 48px;
+}
+
+.Danger {
+    color:$danger-button;
+}

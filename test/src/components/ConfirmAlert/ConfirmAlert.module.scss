@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+.ButtonsContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.ButtonContainer {
+    margin-top: 20px;
+    flex: 1;
+    width: 100px;
+
+}
+
+.ButtonContainer button{
+    border: none;
+    height: 100%;
+    color: $first-color;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+}

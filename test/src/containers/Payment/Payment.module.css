@@ -1,0 +1,30 @@
+
+
+.table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.payments {
+    text-align: center;
+    
+    
+}
+
+.add {
+    margin-left: 10px;;
+    margin-top: 20px;;
+    width: 100%;
+    text-align: start;
+}
+ 
+.add a {
+    cursor: pointer;
+    color: blue;
+}
+
+
+.link {
+    cursor: pointer;
+    color: blue;
+}

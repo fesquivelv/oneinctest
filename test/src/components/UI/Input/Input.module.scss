@@ -1,0 +1,35 @@
+@import '../../../styles/_colors.scss';
+.Input {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.Label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 12px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid $disabled-button;
+    background-color:$fourth-color;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: $disabled-button;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color:$border-invalid;
+}

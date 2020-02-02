@@ -1,0 +1,36 @@
+@import '../../../styles/_colors.scss';
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    
+    top: 10%;
+    box-sizing: border-box;
+    /* transition: all 0.3s ease-out; */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Paddings {
+    border: 1px solid $disabled-button;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+}
+
+.CloseContainer {
+    text-align: end;
+}
+
+.Close {
+    cursor: pointer;
+}
+
+.Title {
+    font-weight: bold;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
