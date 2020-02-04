@@ -1,5 +1,9 @@
 # oneinctest
 
+You need to install:
+- .net core 2.2
+- node.js
+
 the "TestApi" folder contains the API, Youn have to run "dotnet restore", and adter this "dotnet run" in console in the path of this folder, I muts run the projec in "https://localhost:5001"
 
 
